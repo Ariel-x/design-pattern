@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gupaoedu.vip.pattern.factory.factorymethod.IPayFactory</OriginalElement>
+  <nodes>
+    <node x="63.381249999999994" y="208.0">com.gupaoedu.vip.pattern.factory.factorymethod.WeiPayFactory</node>
+    <node x="306.00624999999997" y="208.0">com.gupaoedu.vip.pattern.factory.factorymethod.UnionPayFactory</node>
+    <node x="0.0" y="104.0">com.gupaoedu.vip.pattern.factory.WeiPay</node>
+    <node x="160.0" y="104.0">com.gupaoedu.vip.pattern.factory.factorymethod.IPayFactory</node>
+    <node x="318.0" y="104.0">com.gupaoedu.vip.pattern.factory.UnionPay</node>
+    <node x="159.88125" y="0.0">com.gupaoedu.vip.pattern.factory.IPay</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gupaoedu.vip.pattern.factory.factorymethod.UnionPayFactory" target="com.gupaoedu.vip.pattern.factory.UnionPay">
+      <point x="0.0" y="-27.0" />
+      <point x="378.00624999999997" y="183.0" />
+      <point x="387.5" y="183.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.gupaoedu.vip.pattern.factory.WeiPay" target="com.gupaoedu.vip.pattern.factory.IPay">
+      <point x="0.0" y="-27.0" />
+      <point x="69.5" y="74.0" />
+      <point x="173.78125" y="74.0" />
+      <point x="-55.599999999999994" y="27.0" />
+    </edge>
+    <edge source="com.gupaoedu.vip.pattern.factory.UnionPay" target="com.gupaoedu.vip.pattern.factory.IPay">
+      <point x="0.0" y="-27.0" />
+      <point x="387.5" y="84.0" />
+      <point x="257.18125" y="84.0" />
+      <point x="27.799999999999983" y="27.0" />
+    </edge>
+    <edge source="com.gupaoedu.vip.pattern.factory.factorymethod.WeiPayFactory" target="com.gupaoedu.vip.pattern.factory.IPay">
+      <point x="0.0" y="-27.0" />
+      <point x="132.38125" y="183.0" />
+      <point x="149.5" y="183.0" />
+      <point x="149.5" y="84.0" />
+      <point x="201.58124999999998" y="84.0" />
+      <point x="-27.80000000000001" y="27.0" />
+    </edge>
+    <edge source="com.gupaoedu.vip.pattern.factory.factorymethod.UnionPayFactory" target="com.gupaoedu.vip.pattern.factory.IPay">
+      <point x="48.000000000000014" y="-27.0" />
+      <point x="426.00625" y="183.0" />
+      <point x="467.5" y="183.0" />
+      <point x="467.5" y="74.0" />
+      <point x="284.98125" y="74.0" />
+      <point x="55.599999999999994" y="27.0" />
+    </edge>
+    <edge source="com.gupaoedu.vip.pattern.factory.factorymethod.UnionPayFactory" target="com.gupaoedu.vip.pattern.factory.factorymethod.IPayFactory">
+      <point x="-48.0" y="-27.0" />
+      <point x="330.00624999999997" y="183.0" />
+      <point x="263.5" y="183.0" />
+      <point x="34.5" y="27.0" />
+    </edge>
+    <edge source="com.gupaoedu.vip.pattern.factory.factorymethod.IPayFactory" target="com.gupaoedu.vip.pattern.factory.IPay">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.gupaoedu.vip.pattern.factory.factorymethod.WeiPayFactory" target="com.gupaoedu.vip.pattern.factory.factorymethod.IPayFactory">
+      <point x="46.0" y="-27.0" />
+      <point x="178.38125" y="183.0" />
+      <point x="194.5" y="183.0" />
+      <point x="-34.5" y="27.0" />
+    </edge>
+    <edge source="com.gupaoedu.vip.pattern.factory.factorymethod.WeiPayFactory" target="com.gupaoedu.vip.pattern.factory.WeiPay">
+      <point x="-46.0" y="-27.0" />
+      <point x="86.38125" y="183.0" />
+      <point x="69.5" y="183.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="57.0" y="15.5" />
+  <SelectedNodes>
+    <node>com.gupaoedu.vip.pattern.factory.factorymethod.IPayFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

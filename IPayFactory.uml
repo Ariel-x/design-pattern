@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gupaoedu.vip.pattern.factory.abstractfactory.IPayFactory</OriginalElement>
+  <nodes>
+    <node x="176.27604166666669" y="231.0">com.gupaoedu.vip.pattern.factory.abstractfactory.UnionPayFactory</node>
+    <node x="393.5" y="115.5">com.gupaoedu.vip.pattern.factory.abstractfactory.UnionReponse</node>
+    <node x="325.1510416666667" y="0.0">com.gupaoedu.vip.pattern.factory.abstractfactory.IRespones</node>
+    <node x="177.5" y="104.0">com.gupaoedu.vip.pattern.factory.abstractfactory.IPayFactory</node>
+    <node x="10.5" y="115.5">com.gupaoedu.vip.pattern.factory.abstractfactory.UnionRequset</node>
+    <node x="19.651041666666686" y="0.0">com.gupaoedu.vip.pattern.factory.abstractfactory.IRequest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.UnionPayFactory" target="com.gupaoedu.vip.pattern.factory.abstractfactory.UnionReponse">
+      <point x="78.0" y="-38.5" />
+      <point x="351.7760416666667" y="211.0" />
+      <point x="460.0" y="211.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.UnionPayFactory" target="com.gupaoedu.vip.pattern.factory.abstractfactory.IPayFactory">
+      <point x="0.0" y="-38.5" />
+      <point x="273.7760416666667" y="211.0" />
+      <point x="275.0" y="211.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.UnionPayFactory" target="com.gupaoedu.vip.pattern.factory.abstractfactory.UnionRequset">
+      <point x="-39.0" y="-38.5" />
+      <point x="234.77604166666669" y="201.0" />
+      <point x="84.0" y="201.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.UnionPayFactory" target="com.gupaoedu.vip.pattern.factory.abstractfactory.IRespones">
+      <point x="39.0" y="-38.5" />
+      <point x="312.7760416666667" y="201.0" />
+      <point x="383.0" y="201.0" />
+      <point x="383.0" y="79.0" />
+      <point x="390.6510416666667" y="79.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.UnionReponse" target="com.gupaoedu.vip.pattern.factory.abstractfactory.IRespones">
+      <point x="0.0" y="-27.0" />
+      <point x="460.0" y="79.0" />
+      <point x="434.31770833333337" y="79.0" />
+      <point x="43.666666666666686" y="27.0" />
+    </edge>
+    <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.UnionRequset" target="com.gupaoedu.vip.pattern.factory.abstractfactory.IRequest">
+      <point x="0.0" y="-27.0" />
+      <point x="84.0" y="79.0" />
+      <point x="93.15104166666669" y="79.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.IPayFactory" target="com.gupaoedu.vip.pattern.factory.abstractfactory.IRespones">
+      <point x="48.75" y="-38.5" />
+      <point x="323.75" y="79.0" />
+      <point x="346.984375" y="79.0" />
+      <point x="-43.666666666666686" y="27.0" />
+    </edge>
+    <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.IPayFactory" target="com.gupaoedu.vip.pattern.factory.abstractfactory.IRequest">
+      <point x="-48.75" y="-38.5" />
+      <point x="226.25" y="79.0" />
+      <point x="142.15104166666669" y="79.0" />
+      <point x="49.0" y="27.0" />
+    </edge>
+    <edge source="com.gupaoedu.vip.pattern.factory.abstractfactory.UnionPayFactory" target="com.gupaoedu.vip.pattern.factory.abstractfactory.IRequest">
+      <point x="-78.0" y="-38.5" />
+      <point x="195.77604166666669" y="211.0" />
+      <point x="0.0" y="211.0" />
+      <point x="0.0" y="79.0" />
+      <point x="44.151041666666686" y="79.0" />
+      <point x="-49.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="57.0" y="160.0" />
+  <SelectedNodes>
+    <node>com.gupaoedu.vip.pattern.factory.abstractfactory.IPayFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
